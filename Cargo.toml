@@ -1,8 +1,8 @@
 [package]
-name = "unicode_stretch"
+name = "unicode_hfwidth"
 version = "0.1.0"
 authors = [ "Mikko Perttunen <cyndis@kapsi.fi>" ]
 
 [lib]
-name = "unicode_stretch"
+name = "unicode_hfwidth"
 path = "lib.rs"

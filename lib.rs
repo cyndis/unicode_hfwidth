@@ -6,8 +6,8 @@ use std::mem::transmute;
 ///
 /// # Example
 /// ```rust
-/// assert_eq!(unicode_stretch::is_nonstandard_width('カ'), false);
-/// assert_eq!(unicode_stretch::is_nonstandard_width('ｶ'), true);
+/// assert_eq!(unicode_hfwidth::is_nonstandard_width('カ'), false);
+/// assert_eq!(unicode_hfwidth::is_nonstandard_width('ｶ'), true);
 /// ```
 pub fn is_nonstandard_width(ch: char) -> bool {
     match ch as u32 {
@@ -21,9 +21,9 @@ pub fn is_nonstandard_width(ch: char) -> bool {
 ///
 /// # Example
 /// ```rust
-/// assert_eq!(unicode_stretch::to_standard_width('カ'), None);
-/// assert_eq!(unicode_stretch::to_standard_width('ｶ'), Some('カ'));
-/// assert_eq!(unicode_stretch::to_standard_width('ａ'), Some('a'));
+/// assert_eq!(unicode_hfwidth::to_standard_width('カ'), None);
+/// assert_eq!(unicode_hfwidth::to_standard_width('ｶ'), Some('カ'));
+/// assert_eq!(unicode_hfwidth::to_standard_width('ａ'), Some('a'));
 /// ```
 pub fn to_standard_width(ch: char) -> Option<char> {
     match ch as u32 {
