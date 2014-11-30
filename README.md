@@ -1,4 +1,5 @@
 # unicode_hfwidth
 
-This library provides functions to retrieve the standard-width forms of 
-characters in the Unicode "Halfwidth and Fullwidth Forms" block.
+This library provides functions to retrieve the half-width and full-width
+forms of Unicode codepoints, as specified in the Unicode "Halfwidth and
+Fullwidth Forms" block.
