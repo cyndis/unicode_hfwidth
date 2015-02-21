@@ -2,6 +2,10 @@
 name = "unicode_hfwidth"
 version = "0.2.0"
 authors = [ "Mikko Perttunen <cyndis@kapsi.fi>" ]
+license = "MIT"
+description = "Utilities for handling characters in the Unicode \"Halfwidth and Fullwidth Forms\" block."
+homepage = "https://github.com/cyndis/unicode_hfwidth"
+repository = "https://github.com/cyndis/unicode_hfwidth"
 
 [lib]
 name = "unicode_hfwidth"
